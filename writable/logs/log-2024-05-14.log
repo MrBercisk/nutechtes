@@ -1,0 +1,1153 @@
+INFO - 2024-05-14 12:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 12:35:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: pendaftaran/dashboard]
+in APPPATH\Controllers\Pendaftaran.php on line 403.
+ 1 APPPATH\Controllers\Pendaftaran.php(403): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\siamang\\app\\Controllers\\Pendaftaran.php', 403)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pendaftaran->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 12:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 12:36:13 --> ErrorException: Undefined array key "video_perkenalan"
+[Method: GET, Route: datapendaftaran/view/14]
+in APPPATH\Views\v_dataPendaftaran\view.php on line 156.
+ 1 APPPATH\Views\v_dataPendaftaran\view.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video_perkenalan"', 'D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\view.php', 156)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/view', [], true)
+ 5 APPPATH\Controllers\DataPendaftaran.php(140): view('v_dataPendaftaran/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->view('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 12:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 12:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:18:45 --> ErrorException: Undefined variable $events
+[Method: GET, Route: datapendaftaran/ubah/14]
+in APPPATH\Views\layouts_admin\template_admin.php on line 46.
+ 1 APPPATH\Views\layouts_admin\template_admin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'D:\\xampp\\htdocs\\siamang\\app\\Views\\layouts_admin\\template_admin.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\layouts_admin\\template_admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts_admin/template_admin', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/edit', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(279): view('v_dataPendaftaran/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->ubah('14')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 13:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:29:33 --> ErrorException: Undefined property: App\Controllers\DataPendaftaran::$M_jadwal
+[Method: GET, Route: datapendaftaran/ubah/14]
+in APPPATH\Controllers\DataPendaftaran.php on line 265.
+ 1 APPPATH\Controllers\DataPendaftaran.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DataPendaftaran::$M_jadwal', 'D:\\xampp\\htdocs\\siamang\\app\\Controllers\\DataPendaftaran.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->ubah('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 13:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:33:25 --> ParseError: syntax error, unexpected token "return", expecting variable or "{" or "$"
+[Method: GET, Route: datapendaftaran/ubah/14]
+in APPPATH\Controllers\DataPendaftaran.php on line 298.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('datapendaftaran/ubah/14', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('datapendaftaran/ubah/14')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('datapendaftaran/ubah/14')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 13:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:37:28 --> ErrorException: Undefined variable $pendaftaran
+[Method: GET, Route: datapendaftaran/ubah/14]
+in APPPATH\Views\v_dataPendaftaran\edit.php on line 31.
+ 1 APPPATH\Views\v_dataPendaftaran\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendaftaran', 'D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/edit', [], true)
+ 5 APPPATH\Controllers\DataPendaftaran.php(303): view('v_dataPendaftaran/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->ubah('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 13:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:37:33 --> ErrorException: Undefined variable $pendaftaran
+[Method: GET, Route: datapendaftaran/ubah/14]
+in APPPATH\Views\v_dataPendaftaran\edit.php on line 31.
+ 1 APPPATH\Views\v_dataPendaftaran\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendaftaran', 'D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/edit', [], true)
+ 5 APPPATH\Controllers\DataPendaftaran.php(303): view('v_dataPendaftaran/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->ubah('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 13:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:40:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_dataPendaftaran/tidakditerima.php"
+[Method: POST, Route: datapendaftaran/tidakditerima/14]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_dataPendaftaran/tidakditerima.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/tidakditerima', [], true)
+ 3 APPPATH\Controllers\DataPendaftaran.php(248): view('v_dataPendaftaran/tidakditerima', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->tidakditerima('14')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 13:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:40:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_dataPendaftaran/tidakditerima.php"
+[Method: POST, Route: datapendaftaran/tidakditerima/14]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_dataPendaftaran/tidakditerima.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/tidakditerima', [], true)
+ 3 APPPATH\Controllers\DataPendaftaran.php(248): view('v_dataPendaftaran/tidakditerima', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->tidakditerima('14')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 13:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 13:55:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_dataPendaftaran/tidakditerima.php"
+[Method: POST, Route: datapendaftaran/tidakditerima/14]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_dataPendaftaran/tidakditerima.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/tidakditerima', [], true)
+ 3 APPPATH\Controllers\DataPendaftaran.php(192): view('v_dataPendaftaran/tidakditerima', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->tidakditerima('14')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 13:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 13:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 14:31:52 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: dataMentor/ubah/19]
+in APPPATH\Views\v_dataMentor\edit.php on line 71.
+ 1 APPPATH\Views\v_dataMentor\edit.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataMentor\\edit.php', 71)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataMentor\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataMentor/edit', [], true)
+ 5 APPPATH\Controllers\DataMentor.php(215): view('v_dataMentor/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMentor->ubah('19')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMentor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 14:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 14:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 15:33:12 --> ErrorException: Undefined variable $events
+[Method: POST, Route: DataPendaftaran/filterData]
+in APPPATH\Views\layouts_admin\template_admin.php on line 46.
+ 1 APPPATH\Views\layouts_admin\template_admin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'D:\\xampp\\htdocs\\siamang\\app\\Views\\layouts_admin\\template_admin.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\layouts_admin\\template_admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts_admin/template_admin', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(262): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 15:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 15:46:40 --> ErrorException: Undefined variable $results
+[Method: POST, Route: DataPendaftaran/filterData]
+in APPPATH\Views\v_dataPendaftaran\filter.php on line 55.
+ 1 APPPATH\Views\v_dataPendaftaran\filter.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 5 APPPATH\Controllers\DataPendaftaran.php(250): view('v_dataPendaftaran/filter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 15:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 15:47:28 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 5.
+ 1 APPPATH\Helpers\app-siamang_helper.php(5): substr(null, 8, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(250): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+WARNING - 2024-05-14 15:47:28 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 9.
+ 1 APPPATH\Helpers\app-siamang_helper.php(9): substr(null, 5, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(250): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+CRITICAL - 2024-05-14 15:47:29 --> TypeError: Unsupported operand types: string - int
+[Method: POST, Route: DataPendaftaran/filterData]
+in APPPATH\Helpers\app-siamang_helper.php on line 9.
+ 1 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 5 APPPATH\Controllers\DataPendaftaran.php(250): view('v_dataPendaftaran/filter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 15:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 15:47:45 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 5.
+ 1 APPPATH\Helpers\app-siamang_helper.php(5): substr(null, 8, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(250): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+WARNING - 2024-05-14 15:47:45 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 9.
+ 1 APPPATH\Helpers\app-siamang_helper.php(9): substr(null, 5, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(250): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+CRITICAL - 2024-05-14 15:47:45 --> TypeError: Unsupported operand types: string - int
+[Method: POST, Route: DataPendaftaran/filterData]
+in APPPATH\Helpers\app-siamang_helper.php on line 9.
+ 1 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 5 APPPATH\Controllers\DataPendaftaran.php(250): view('v_dataPendaftaran/filter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 15:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 15:48:43 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 5.
+ 1 APPPATH\Helpers\app-siamang_helper.php(5): substr(null, 8, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(250): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+WARNING - 2024-05-14 15:48:43 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 9.
+ 1 APPPATH\Helpers\app-siamang_helper.php(9): substr(null, 5, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(250): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+CRITICAL - 2024-05-14 15:48:43 --> TypeError: Unsupported operand types: string - int
+[Method: POST, Route: DataPendaftaran/filterData]
+in APPPATH\Helpers\app-siamang_helper.php on line 9.
+ 1 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 5 APPPATH\Controllers\DataPendaftaran.php(250): view('v_dataPendaftaran/filter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 15:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 15:54:37 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 6.
+ 1 APPPATH\Helpers\app-siamang_helper.php(6): substr(null, 8, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(249): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+WARNING - 2024-05-14 15:54:37 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 13.
+ 1 APPPATH\Helpers\app-siamang_helper.php(13): substr(null, 5, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(249): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+CRITICAL - 2024-05-14 15:54:37 --> ErrorException: Undefined array key -1
+[Method: POST, Route: DataPendaftaran/filterData]
+in APPPATH\Helpers\app-siamang_helper.php on line 13.
+ 1 APPPATH\Helpers\app-siamang_helper.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key -1', 'D:\\xampp\\htdocs\\siamang\\app\\Helpers\\app-siamang_helper.php', 13)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(249): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 15:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 15:55:48 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 6.
+ 1 APPPATH\Helpers\app-siamang_helper.php(6): substr(null, 8, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(249): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+WARNING - 2024-05-14 15:55:48 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 7.
+ 1 APPPATH\Helpers\app-siamang_helper.php(7): substr(null, 5, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(249): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 15:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 15:56:09 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 6.
+ 1 APPPATH\Helpers\app-siamang_helper.php(6): substr(null, 8, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(249): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+WARNING - 2024-05-14 15:56:09 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 7.
+ 1 APPPATH\Helpers\app-siamang_helper.php(7): substr(null, 5, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(249): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 15:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 15:56:13 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 6.
+ 1 APPPATH\Helpers\app-siamang_helper.php(6): substr(null, 8, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(249): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+WARNING - 2024-05-14 15:56:13 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Helpers\app-siamang_helper.php on line 7.
+ 1 APPPATH\Helpers\app-siamang_helper.php(7): substr(null, 5, 2)
+ 2 APPPATH\Views\v_dataPendaftaran\filter.php(70): tgl_indonesia(null)
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_dataPendaftaran\\filter.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dataPendaftaran/filter', [], true)
+ 6 APPPATH\Controllers\DataPendaftaran.php(249): view('v_dataPendaftaran/filter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataPendaftaran->filterData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 15:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 16:08:02 --> ErrorException: Undefined property: stdClass::$judul
+[Method: GET, Route: jadwalpeserta]
+in APPPATH\Views\layouts_admin\template_admin.php on line 47.
+ 1 APPPATH\Views\layouts_admin\template_admin.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$judul', 'D:\\xampp\\htdocs\\siamang\\app\\Views\\layouts_admin\\template_admin.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\layouts_admin\\template_admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts_admin/template_admin', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_jadwal/index', [], true)
+ 6 APPPATH\Controllers\JadwalPeserta.php(91): view('v_jadwal/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalPeserta->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalPeserta))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 16:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:11:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-05-14 16:11:55 --> mysqli_sql_exception: Unknown column 'tbl_pendaftaran.keahlian' in 'field list' in D:\xampp\htdocs\siamang\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\xampp\htdocs\siamang\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tbl_pen...', 0)
+#1 D:\xampp\htdocs\siamang\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_pen...')
+#2 D:\xampp\htdocs\siamang\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_pen...')
+#3 D:\xampp\htdocs\siamang\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_pen...', Array, false)
+#4 D:\xampp\htdocs\siamang\app\Controllers\Mahasiswa.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\siamang\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+#6 D:\xampp\htdocs\siamang\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 D:\xampp\htdocs\siamang\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\siamang\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\siamang\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\siamang\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\xampp\htdocs\siamang\system\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-05-14 16:11:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_pendaftaran.keahlian' in 'field list'
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_pendaftaran`.`nama_peserta`, `tbl_pendaftaran`.`nim`, `tbl_pendaftaran`.`keahlian`, `tbl_pendaftaran`.`foto`, `tbl_user`.`nama`, `tbl_jadwal`.`tanggal_mulai`, `tbl_jadwal`.`tanggal_selesai`
+FROM `tbl_pendaftaran`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_pendaftaran`.`user_id`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`pendaftaran_id` = `tbl_pendaftaran`.`id`
+WHERE `tbl_pendaftaran`.`user_id` = :tbl_pendaftaran.user_id:', [...], false)
+ 2 APPPATH\Controllers\Mahasiswa.php(76): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+CRITICAL - 2024-05-14 16:11:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_pendaftaran.keahlian' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_pendaftaran`.`nama_peserta`, `tbl_pendaftaran`.`nim`, `tbl_pendaftaran`.`keahlian`, `tbl_pendaftaran`.`foto`, `tbl_user`.`nama`, `tbl_jadwal`.`tanggal_mulai`, `tbl_jadwal`.`tanggal_selesai`
+FROM `tbl_pendaftaran`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_pendaftaran`.`user_id`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`pendaftaran_id` = `tbl_pendaftaran`.`id`
+WHERE `tbl_pendaftaran`.`user_id` = \'17\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_pendaftaran`.`nama_peserta`, `tbl_pendaftaran`.`nim`, `tbl_pendaftaran`.`keahlian`, `tbl_pendaftaran`.`foto`, `tbl_user`.`nama`, `tbl_jadwal`.`tanggal_mulai`, `tbl_jadwal`.`tanggal_selesai`
+FROM `tbl_pendaftaran`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_pendaftaran`.`user_id`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`pendaftaran_id` = `tbl_pendaftaran`.`id`
+WHERE `tbl_pendaftaran`.`user_id` = \'17\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_pendaftaran`.`nama_peserta`, `tbl_pendaftaran`.`nim`, `tbl_pendaftaran`.`keahlian`, `tbl_pendaftaran`.`foto`, `tbl_user`.`nama`, `tbl_jadwal`.`tanggal_mulai`, `tbl_jadwal`.`tanggal_selesai`
+FROM `tbl_pendaftaran`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_pendaftaran`.`user_id`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`pendaftaran_id` = `tbl_pendaftaran`.`id`
+WHERE `tbl_pendaftaran`.`user_id` = :tbl_pendaftaran.user_id:', [...], false)
+ 4 APPPATH\Controllers\Mahasiswa.php(76): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+CRITICAL - 2024-05-14 16:11:55 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_pendaftaran.keahlian' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tbl_pendaftaran`.`nama_peserta`, `tbl_pendaftaran`.`nim`, `tbl_pendaftaran`.`keahlian`, `tbl_pendaftaran`.`foto`, `tbl_user`.`nama`, `tbl_jadwal`.`tanggal_mulai`, `tbl_jadwal`.`tanggal_selesai`
+FROM `tbl_pendaftaran`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_pendaftaran`.`user_id`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`pendaftaran_id` = `tbl_pendaftaran`.`id`
+WHERE `tbl_pendaftaran`.`user_id` = \'17\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_pendaftaran`.`nama_peserta`, `tbl_pendaftaran`.`nim`, `tbl_pendaftaran`.`keahlian`, `tbl_pendaftaran`.`foto`, `tbl_user`.`nama`, `tbl_jadwal`.`tanggal_mulai`, `tbl_jadwal`.`tanggal_selesai`
+FROM `tbl_pendaftaran`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_pendaftaran`.`user_id`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`pendaftaran_id` = `tbl_pendaftaran`.`id`
+WHERE `tbl_pendaftaran`.`user_id` = \'17\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_pendaftaran`.`nama_peserta`, `tbl_pendaftaran`.`nim`, `tbl_pendaftaran`.`keahlian`, `tbl_pendaftaran`.`foto`, `tbl_user`.`nama`, `tbl_jadwal`.`tanggal_mulai`, `tbl_jadwal`.`tanggal_selesai`
+FROM `tbl_pendaftaran`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_pendaftaran`.`user_id`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`pendaftaran_id` = `tbl_pendaftaran`.`id`
+WHERE `tbl_pendaftaran`.`user_id` = \'17\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_pendaftaran`.`nama_peserta`, `tbl_pendaftaran`.`nim`, `tbl_pendaftaran`.`keahlian`, `tbl_pendaftaran`.`foto`, `tbl_user`.`nama`, `tbl_jadwal`.`tanggal_mulai`, `tbl_jadwal`.`tanggal_selesai`
+FROM `tbl_pendaftaran`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_pendaftaran`.`user_id`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`pendaftaran_id` = `tbl_pendaftaran`.`id`
+WHERE `tbl_pendaftaran`.`user_id` = :tbl_pendaftaran.user_id:', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(76): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 16:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:12:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-05-14 16:12:25 --> mysqli_sql_exception: Table 'siamang.chat' doesn't exist in D:\xampp\htdocs\siamang\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\xampp\htdocs\siamang\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `chat`.*...', 0)
+#1 D:\xampp\htdocs\siamang\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat`.*...')
+#2 D:\xampp\htdocs\siamang\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat`.*...')
+#3 D:\xampp\htdocs\siamang\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `chat`.*...', Array, false)
+#4 D:\xampp\htdocs\siamang\app\Controllers\Mahasiswa.php(91): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\siamang\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+#6 D:\xampp\htdocs\siamang\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 D:\xampp\htdocs\siamang\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\siamang\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\siamang\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\siamang\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\xampp\htdocs\siamang\system\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-05-14 16:12:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'siamang.chat' doesn't exist
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `chat`.`pengirim`
+WHERE `chat`.`kategori_id` = :chat.kategori_id:
+ORDER BY `waktu_kirim` DESC', [...], false)
+ 2 APPPATH\Controllers\Mahasiswa.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+CRITICAL - 2024-05-14 16:12:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'siamang.chat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `chat`.`pengirim`
+WHERE `chat`.`kategori_id` = \'3\'
+ORDER BY `waktu_kirim` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `chat`.`pengirim`
+WHERE `chat`.`kategori_id` = \'3\'
+ORDER BY `waktu_kirim` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `chat`.`pengirim`
+WHERE `chat`.`kategori_id` = :chat.kategori_id:
+ORDER BY `waktu_kirim` DESC', [...], false)
+ 4 APPPATH\Controllers\Mahasiswa.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+CRITICAL - 2024-05-14 16:12:25 --> [Caused by] mysqli_sql_exception: Table 'siamang.chat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `chat`.`pengirim`
+WHERE `chat`.`kategori_id` = \'3\'
+ORDER BY `waktu_kirim` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `chat`.`pengirim`
+WHERE `chat`.`kategori_id` = \'3\'
+ORDER BY `waktu_kirim` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `chat`.`pengirim`
+WHERE `chat`.`kategori_id` = \'3\'
+ORDER BY `waktu_kirim` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `chat`.`pengirim`
+WHERE `chat`.`kategori_id` = :chat.kategori_id:
+ORDER BY `waktu_kirim` DESC', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 16:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:19:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-05-14 16:19:39 --> mysqli_sql_exception: Unknown column 'chat.kategori_id' in 'where clause' in D:\xampp\htdocs\siamang\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\xampp\htdocs\siamang\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tbl_cha...', 0)
+#1 D:\xampp\htdocs\siamang\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_cha...')
+#2 D:\xampp\htdocs\siamang\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_cha...')
+#3 D:\xampp\htdocs\siamang\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_cha...', Array, false)
+#4 D:\xampp\htdocs\siamang\app\Controllers\Mahasiswa.php(91): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\siamang\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+#6 D:\xampp\htdocs\siamang\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 D:\xampp\htdocs\siamang\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\siamang\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\siamang\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\siamang\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\xampp\htdocs\siamang\system\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-05-14 16:19:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'chat.kategori_id' in 'where clause'
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `tbl_chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_chat`.`pengirim`
+WHERE `chat`.`kategori_id` = :chat.kategori_id:
+ORDER BY `waktu_kirim` DESC', [...], false)
+ 2 APPPATH\Controllers\Mahasiswa.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+CRITICAL - 2024-05-14 16:19:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'chat.kategori_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `tbl_chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_chat`.`pengirim`
+WHERE `chat`.`kategori_id` = \'3\'
+ORDER BY `waktu_kirim` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `tbl_chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_chat`.`pengirim`
+WHERE `chat`.`kategori_id` = \'3\'
+ORDER BY `waktu_kirim` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `tbl_chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_chat`.`pengirim`
+WHERE `chat`.`kategori_id` = :chat.kategori_id:
+ORDER BY `waktu_kirim` DESC', [...], false)
+ 4 APPPATH\Controllers\Mahasiswa.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+CRITICAL - 2024-05-14 16:19:39 --> [Caused by] mysqli_sql_exception: Unknown column 'chat.kategori_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tbl_chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `tbl_chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_chat`.`pengirim`
+WHERE `chat`.`kategori_id` = \'3\'
+ORDER BY `waktu_kirim` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `tbl_chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_chat`.`pengirim`
+WHERE `chat`.`kategori_id` = \'3\'
+ORDER BY `waktu_kirim` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `tbl_chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_chat`.`pengirim`
+WHERE `chat`.`kategori_id` = \'3\'
+ORDER BY `waktu_kirim` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_chat`.*, `tbl_user`.`role_id`, `tbl_user`.`nama` as `pengirim_nama`
+FROM `tbl_chat`
+JOIN `tbl_user` ON `tbl_user`.`id` = `tbl_chat`.`pengirim`
+WHERE `chat`.`kategori_id` = :chat.kategori_id:
+ORDER BY `waktu_kirim` DESC', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 16:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:19:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-05-14 16:19:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_magang/index.php"
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_magang/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_magang/index', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(136): view('v_magang/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 16:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:20:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-05-14 16:20:47 --> ErrorException: Undefined variable $keahlian
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\v_magang\index.php on line 220.
+ 1 APPPATH\Views\v_magang\index.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $keahlian', 'D:\\xampp\\htdocs\\siamang\\app\\Views\\v_magang\\index.php', 220)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_magang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_magang/index', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(136): view('v_magang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 16:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:21:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-05-14 16:21:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts_magang/template_magang.php"
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts_magang/template_magang.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts_magang/template_magang', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_magang/index', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(136): view('v_magang/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 16:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:21:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-05-14 16:21:47 --> ErrorException: Undefined property: stdClass::$judul
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\layouts_magang\template_magang.php on line 48.
+ 1 APPPATH\Views\layouts_magang\template_magang.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$judul', 'D:\\xampp\\htdocs\\siamang\\app\\Views\\layouts_magang\\template_magang.php', 48)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\layouts_magang\\template_magang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts_magang/template_magang', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_magang/index', [], true)
+ 6 APPPATH\Controllers\Mahasiswa.php(136): view('v_magang/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 16:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:22:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-05-14 16:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:23:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-05-14 16:23:02 --> ErrorException: Undefined array key "keahlian"
+[Method: GET, Route: mahasiswa/buktiPendaftaran]
+in APPPATH\Views\v_pendaftaran\bukti_pendaftaran.php on line 64.
+ 1 APPPATH\Views\v_pendaftaran\bukti_pendaftaran.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keahlian"', 'D:\\xampp\\htdocs\\siamang\\app\\Views\\v_pendaftaran\\bukti_pendaftaran.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\siamang\\app\\Views\\v_pendaftaran\\bukti_pendaftaran.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_pendaftaran/bukti_pendaftaran', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(277): view('v_pendaftaran/bukti_pendaftaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->buktiPendaftaran()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\siamang\\public\\index.php')
+INFO - 2024-05-14 16:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:24:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-05-14 16:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:24:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-05-14 16:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:24:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-05-14 16:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:24:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-05-14 16:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:25:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-05-14 16:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:25:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-05-14 16:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 16:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:55:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-05-14 16:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 16:56:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-05-14 17:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 17:00:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-05-14 17:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 17:00:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-05-14 17:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 17:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

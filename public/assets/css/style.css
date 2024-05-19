@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+    padding: 0;
+    height: 100vh; 
+}
+
+  .login .container {
+    height: 100%;
+    display: flex;
+  }
+  img.img-fluid {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Memastikan gambar menyesuaikan dengan kolom */
+}
+input[type="text"]:focus,
+    input[type="password"]:focus {
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    }
+    
+
+  .main-sidebar{
+    background-color: red;
+  }
+  .main-sidebar .brand-text{
+    margin-left: 10px;
+  }
+  .main-sidebar a, .nav .nav-item i,p{
+    color: white
+  }
+
+  .content-wrapper{
+    background-color: white;
+  }
+
+  .dataTables_wrapper {
+
+    font-size: 14px;
+    /* ukuran font */
+    line-height: 1.5;
+    /* jarak antar baris */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .breadcrumb li{
+    font-size: 24px
+  }
+  

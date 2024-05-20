@@ -33,100 +33,101 @@
 </head>
 
 <body class="hold-transition sidebar-mini">
-    <!-- Navbar -->
-    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-        <!-- Left navbar links -->
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-            </li>
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
 
-        </ul>
-    </nav>
-    <!-- /.navbar -->
-    <aside class="main-sidebar elevation-4">
-        <!-- Brand Logo -->
-        <a href="index3.html" class="brand-link d-flex justify-content-center">
-            <i class="fas fa-shopping-bag align-self-center"></i>
-            <span class="brand-text align-self-center">SIMS Web App</span>
-        </a>
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+        <aside class="main-sidebar elevation-4">
+            <!-- Brand Logo -->
+            <a href="index3.html" class="brand-link d-flex justify-content-center">
+                <i class="fas fa-shopping-bag align-self-center"></i>
+                <span class="brand-text align-self-center">SIMS Web App</span>
+            </a>
 
-        <!-- Sidebar -->
-        <div class="sidebar mt-3">
-            <!-- Sidebar Menu -->
-            <nav class="mt-2">
-                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                    <li class="nav-item mt-2">
-                        <a href="<?= base_url('home'); ?>" class="nav-link <?php if ($page == 'home') echo " active";  ?>">
-                            <i class="nav-icon fas fa-box"></i>
-                            <p>Produk</p>
-                        </a>
-                    </li>
-                    <li class="nav-item mt-2">
-                        <a href="<?= base_url('profil'); ?>" class="nav-link <?php if ($page == 'profil') echo " active";  ?>">
-                            <i class="nav-icon fas fa-user"></i>
-                            <p>Profil</p>
-                        </a>
-                    </li>
-                    <li class="nav-item mt-2">
-                        <a href="<?= base_url('home/logout'); ?>" class="nav-link">
-                            <i class="nav-icon fas fa-sign-out-alt"></i>
-                            <p>Logout</p>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- /.sidebar-menu -->
-        </div>
-        <!-- /.sidebar -->
-    </aside>
-
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper p-3">
-
-        <!-- Main content -->
-        <div class="content mt-2">
-            <div class="container-fluid">
-                <div class="row mb-2">
-                    <div class="col-md-6">
-                        <img src="<?= base_url('profile_picture/' . $user['image']) ?>" alt="Profil Image" style="max-width: 186px; max-height: 186px;">
-                        <h3 class="mb-3"><?= $nama; ?></h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" >Nama Kandidat</label>
-                                <input type="text" name="nama_peserta" value="<?= $nama; ?>" class="form-control" id="exampleFormControlInput1" readonly>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-md-6">
-
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Posisi Kandidat</label>
-                                <input type="email" name="position" value="<?= $user['position']; ?>" class="form-control" id="exampleFormControlInput1" readonly>
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-
-                <!-- /.row -->
+            <!-- Sidebar -->
+            <div class="sidebar mt-3">
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <li class="nav-item mt-2">
+                            <a href="<?= base_url('home'); ?>" class="nav-link <?php if ($page == 'home') echo " active";  ?>">
+                                <i class="nav-icon fas fa-box"></i>
+                                <p>Produk</p>
+                            </a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a href="<?= base_url('profil'); ?>" class="nav-link <?php if ($page == 'profil') echo " active";  ?>">
+                                <i class="nav-icon fas fa-user"></i>
+                                <p>Profil</p>
+                            </a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a href="<?= base_url('home/logout'); ?>" class="nav-link">
+                                <i class="nav-icon fas fa-sign-out-alt"></i>
+                                <p>Logout</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
             </div>
-            <!-- /.container-fluid -->
-        </div>
-        <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
+            <!-- /.sidebar -->
+        </aside>
 
-    <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
-        <!-- Control sidebar content goes here -->
-    </aside>
-    <!-- /.control-sidebar -->
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper p-3">
+
+            <!-- Main content -->
+            <div class="content mt-2">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-md-6">
+                            <img src="<?= base_url('profile_picture/' . $user['image']) ?>" alt="Profil Image" style="max-width: 186px; max-height: 186px;">
+                            <h3 class="mb-3"><?= $nama; ?></h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1">Nama Kandidat</label>
+                                    <input type="text" name="nama_peserta" value="<?= $nama; ?>" class="form-control" id="exampleFormControlInput1" readonly>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Posisi Kandidat</label>
+                                    <input type="email" name="position" value="<?= $user['position']; ?>" class="form-control" id="exampleFormControlInput1" readonly>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <!-- /.row -->
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
 
     </div>
 

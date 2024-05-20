@@ -33,28 +33,27 @@
 </head>
 
 <body class="hold-transition sidebar-mini">
-    <!-- Navbar -->
-    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-        <!-- Left navbar links -->
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-            </li>
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
 
-        </ul>
-    </nav>
-    <!-- /.navbar -->
-    <aside class="main-sidebar elevation-4">
-        <!-- Brand Logo -->
-        <a href="index3.html" class="brand-link d-flex justify-content-center">
-            <i class="fas fa-shopping-bag align-self-center"></i>
-            <span class="brand-text align-self-center">SIMS Web App</span>
-        </a>
-
-        <!-- Sidebar -->
-        <div class="sidebar mt-3">
-            <!-- Sidebar Menu -->
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+        <aside class="main-sidebar elevation-4">
+            <!-- Brand Logo -->
+            <a href="index3.html" class="brand-link d-flex justify-content-center">
+                <i class="fas fa-shopping-bag align-self-center"></i>
+                <span class="brand-text align-self-center">SIMS Web App</span>
+            </a>
             <nav class="mt-2">
+
+
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <li class="nav-item mt-2">
                         <a href="<?= base_url('home'); ?>" class="nav-link <?php if ($page == 'home') echo " active";  ?>">
@@ -76,72 +75,78 @@
                     </li>
                 </ul>
             </nav>
-            <!-- /.sidebar-menu -->
-        </div>
-        <!-- /.sidebar -->
-    </aside>
+        </aside>
 
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper p-3">
-        <!-- Content Header (Page header) -->
-        <div class="content-header">
-            <div class="container-fluid">
-                <div class="row mb-2">
-                    <div class="col-sm-6">
-                        <h1 class="m-0">Daftar Produk</h1>
-                    </div><!-- /.col -->
-                </div><!-- /.row -->
-            </div><!-- /.container-fluid -->
-        </div>
-        <!-- /.content-header -->
 
-        <!-- Main content -->
-        <div class="content mt-2">
-            <div class="container-fluid">
-                <div class="button mb-3">
-                    <button class="btn btn-sm btn-success" onclick="window.location.href='<?= base_url('produk/export'); ?>'"><i class="fas fa-file-excel"></i> Export Excel</button>
-                    <a class="btn btn-sm btn-danger" href="<?= base_url('produk') ?>"><i class="fas fa-plus"></i> Tambah Produk</a>
-                </div>
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper p-3">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1 class="m-0">Daftar Produk</h1>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
 
-                <div class="row">
-                    <div class="col-12">
-                        <div class="card">
-                            <div class="card-body table-responsive">
-                                <table id="example1" class="table table-bordered table-striped table-light">
-                                    <thead>
-                                        <tr>
-                                            <th>No.</th>
-                                            <th>Image</th>
-                                            <th>Nama Produk</th>
-                                            <th>Kategori Produk</th>
-                                            <th>Harga Beli (Rp)</th>
-                                            <th>Harga Jual (Rp)</th>
-                                            <th>Stok Produk</th>
-                                            <th>Aksi</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
+            <!-- Main content -->
+            <div class="content mt-2">
+                <div class="container-fluid">
+                    <div class="button mb-3">
+                        <button class="btn btn-sm btn-success" onclick="window.location.href='<?= base_url('produk/export'); ?>'"><i class="fas fa-file-excel"></i> Export Excel</button>
+                        <a class="btn btn-sm btn-danger" href="<?= base_url('produk') ?>"><i class="fas fa-plus"></i> Tambah Produk</a>
+                    </div>
 
-                                    </tbody>
-                                </table>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <select class="form-control" name="kategori" id="kategori">
+                                    <option value="" disabled selected>Pilih Kategori</option>
+                                    <?php foreach ($kategori as $k) : ?>
+                                        <option value="<?= $k['id']; ?>"><?= $k['nama_kategori']; ?></option>
+                                    <?php endforeach ?>
+                                </select>
                             </div>
-                            <!-- /.card-body -->
+                            <div class="card">
+                                <div class="card-body table-responsive">
+                                    <table id="example1" class="table table-bordered table-striped table-light">
+                                        <thead>
+                                            <tr>
+                                                <th>No.</th>
+                                                <th>Image</th>
+                                                <th>Nama Produk</th>
+                                                <th>Kategori Produk</th>
+                                                <th>Harga Beli (Rp)</th>
+                                                <th>Harga Jual (Rp)</th>
+                                                <th>Stok Produk</th>
+                                                <th>Aksi</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
                         </div>
                     </div>
+                    <!-- /.row -->
                 </div>
-                <!-- /.row -->
+                <!-- /.container-fluid -->
             </div>
-            <!-- /.container-fluid -->
+            <!-- /.content -->
         </div>
-        <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
+        <!-- /.content-wrapper -->
 
-    <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
-        <!-- Control sidebar content goes here -->
-    </aside>
-    <!-- /.control-sidebar -->
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
 
     </div>
 
@@ -197,8 +202,6 @@
     <script src="/assets/adminlte3/plugins/summernote/summernote-bs4.min.js"></script>
     <!-- overlayScrollbars -->
     <script src="/assets/adminlte3/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-    <!-- OPTIONAL SCRIPTS -->
-    <script src="/assets/adminlte3/plugins/chart.js/Chart.min.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="/assets/adminlte3/dist/js/demo.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
@@ -210,7 +213,7 @@
 
     <script>
         $(document).ready(function() {
-        
+
 
             $('#example1').DataTable({
                 "responsive": false,
@@ -221,7 +224,10 @@
 
                 "ajax": {
                     "url": "produk/ajaxDataProduk",
-                    "type": "POST"
+                    "type": "POST",
+                    "data": function(d) {
+                        d.kategori = $('#kategori').val();
+                    }
                 },
 
                 "columnDefs": [{
@@ -241,7 +247,7 @@
                 },
 
             });
-
+           
             $('body').on('click', '.btn-deleteProduk', function(e) {
                 e.preventDefault();
                 const url = $(this).attr('href');

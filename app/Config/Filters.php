@@ -106,5 +106,5 @@ class Filters extends BaseFilters
      *
      * @var array<string, array<string, list<string>>>
      */
-    public array $filters = ['jwt' => ['before' => ['Home/*', 'profile/*']]];
+    /* public array $filters = ['jwt' => ['before' => ['Home/*', 'profile/*']]]; */
 }

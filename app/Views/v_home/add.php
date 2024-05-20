@@ -33,270 +33,276 @@
 </head>
 
 <body class="hold-transition sidebar-mini">
-    <!-- Navbar -->
-    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-        <!-- Left navbar links -->
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-            </li>
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
 
-        </ul>
-    </nav>
-    <!-- /.navbar -->
-    <aside class="main-sidebar elevation-4 collapsed">
-        <!-- Brand Logo -->
-        <a href="index3.html" class="brand-link d-flex justify-content-center">
-            <i class="fas fa-shopping-bag align-self-center"></i>
-            <span class="brand-text align-self-center">SIMS Web App</span>
-        </a>
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+        <aside class="main-sidebar elevation-4 collapsed">
+            <!-- Brand Logo -->
+            <a href="index3.html" class="brand-link d-flex justify-content-center">
+                <i class="fas fa-shopping-bag align-self-center"></i>
+                <span class="brand-text align-self-center">SIMS Web App</span>
+            </a>
 
-        <!-- Sidebar -->
-        <div class="sidebar collapsed mt-3">
-            <!-- Sidebar Menu -->
-            <nav class="mt-2">
-                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                    <li class="nav-item mt-2">
-                        <a href="<?= base_url('home'); ?>" class="nav-link <?php if ($page == 'home') echo " active";  ?>">
-                            <i class="nav-icon fas fa-box"></i>
-                            <p>Produk</p>
-                        </a>
-                    </li>
-                    <li class="nav-item mt-2">
-                        <a href="<?= base_url('profil'); ?>" class="nav-link <?php if ($page == 'profil') echo " active";  ?>">
-                            <i class="nav-icon fas fa-user"></i>
-                            <p>Profil</p>
-                        </a>
-                    </li>
-                    <li class="nav-item mt-2">
-                        <a href="<?= base_url('home/logout'); ?>" class="nav-link">
-                            <i class="nav-icon fas fa-sign-out-alt"></i>
-                            <p>Logout</p>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- /.sidebar-menu -->
-        </div>
-        <!-- /.sidebar -->
-    </aside>
-
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper p-3">
-        <!-- Content Header (Page header) -->
-        <div class="content-header">
-            <div class="container-fluid">
-                <div class="row mb-2">
-                    <div class="col-sm-4">
-                        <ol class="breadcrumb float-sm-right">
-                            <li class="breadcrumb-item"><a href="<?= base_url('home') ?>">Daftar Produk</a></li>
-                            <li class="breadcrumb-item active">Tambah Produk</li>
-                        </ol>
-                    </div><!-- /.col -->
-                </div><!-- /.row -->
-            </div><!-- /.container-fluid -->
-        </div>
-        <!-- /.content-header -->
-
-        <!-- Main content -->
-        <div class="content mt-2">
-            <div class="container-fluid">
-
-                <div class="row">
-                    <div class="col-8">
-
-                        <form id="formProduk" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
-                            <label for="kategori">Kategori</label>
-                            <div class="form-group">
-                                <select class="form-control" name="kategori" id="kategori" >
-                                    <option value="" disabled selected>Pilih Kategori</option>
-                                    <?php foreach ($kategori as $k) : ?>
-                                        <option value="<?= $k['id']; ?>"><?= $k['nama_kategori']; ?></option>
-                                    <?php endforeach ?>
-                                </select>
-                                <small id="kategori_error" class="form-text text-danger mb-3"></small>
-                            </div>
-
-                            <label for="barang">Nama Barang</label>
-                            <div class="input-group mb-2">
-                                <input type="text" class="form-control" name="nama_produk" id="nama_produk" placeholder="Masukkan nama barang" autofocus />
-                            </div>
-                            <small id="nama_produk_error" class="form-text text-danger mb-3"></small>
-
-                            <label for="beli">Harga Beli</label>
-                            <div class="input-group mb-2">
-                                <input type="number" class="form-control" name="harga_beli" id="harga_beli" placeholder="Masukkan harga beli" autofocus />
-                            </div>
-                            <small id="harga_beli_error" class="form-text text-danger mb-3"></small>
-
-                            <label for="jual">Harga Jual</label>
-                            <div class="input-group mb-2">
-                                <input type="number" class="form-control" name="harga_jual" id="harga_jual" placeholder="Masukkan harga jual" readonly />
-                            </div>
-                            <small id="harga_jual_error" class="form-text text-danger mb-3"></small>
-
-
-                    </div>
-                    <div class="col-md-4">
-                        <label for="stok">Stok Barang</label>
-                        <div class="input-group mb-2">
-                            <input type="text" class="form-control" name="stok" id="stok" placeholder="Masukkan jumlah stok barang" />
-                        </div>
-                        <small id="stok_error" class="form-text text-danger mb-3"></small>
-
-                        <div class="mb-3">
-                            <label for="formFile" class="form-label">Photo Ukuran Max. 100Kb Dengan Format .jpg/.png<span style="color:red"> *</span></label>
-                            <input class="form-control" type="file" name="image" id="image">
-                            <small id="image_error" class="form-text text-danger mb-3"></small>
-                        </div>
-
-
-                    </div>
-
-                    <div class="d-flex justify-content-end">
-                        <button type="reset" class="btn btn-outline-primary">Batalkan</button>
-                        <button type="submit" class="btn btn-primary" id="btn-tambah">Simpan</button>
-                    </div>
-                    </form>
-                </div>
-                <!-- /.row -->
+            <!-- Sidebar -->
+            <div class="sidebar collapsed mt-3">
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <li class="nav-item mt-2">
+                            <a href="<?= base_url('home'); ?>" class="nav-link <?php if ($page == 'home') echo " active";  ?>">
+                                <i class="nav-icon fas fa-box"></i>
+                                <p>Produk</p>
+                            </a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a href="<?= base_url('profil'); ?>" class="nav-link <?php if ($page == 'profil') echo " active";  ?>">
+                                <i class="nav-icon fas fa-user"></i>
+                                <p>Profil</p>
+                            </a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a href="<?= base_url('home/logout'); ?>" class="nav-link">
+                                <i class="nav-icon fas fa-sign-out-alt"></i>
+                                <p>Logout</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
             </div>
-            <!-- /.container-fluid -->
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper p-3">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-4">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item"><a href="<?= base_url('home') ?>">Daftar Produk</a></li>
+                                <li class="breadcrumb-item active">Tambah Produk</li>
+                            </ol>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+
+            <!-- Main content -->
+            <div class="content mt-2">
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="col-6">
+
+                            <form id="formProduk" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
+                                <label for="kategori">Kategori</label>
+                                <div class="form-group">
+                                    <select class="form-control" name="kategori" id="kategori">
+                                        <option value="" disabled selected>Pilih Kategori</option>
+                                        <?php foreach ($kategori as $k) : ?>
+                                            <option value="<?= $k['id']; ?>"><?= $k['nama_kategori']; ?></option>
+                                        <?php endforeach ?>
+                                    </select>
+                                    <small id="kategori_error" class="form-text text-danger mb-3"></small>
+                                </div>
+
+                                <label for="barang">Nama Barang</label>
+                                <div class="input-group mb-2">
+                                    <input type="text" class="form-control" name="nama_produk" id="nama_produk" placeholder="Masukkan nama barang" autofocus />
+                                </div>
+                                <small id="nama_produk_error" class="form-text text-danger mb-3"></small>
+
+                                <label for="beli">Harga Beli</label>
+                                <div class="input-group mb-2">
+                                    <input type="text" class="form-control" name="harga_beli" id="harga_beli" placeholder="Masukkan harga beli" autofocus />
+                                </div>
+                                <small id="harga_beli_error" class="form-text text-danger mb-3"></small>
+
+                                <label for="jual">Harga Jual</label>
+                                <div class="input-group mb-2">
+                                    <input type="number" class="form-control" name="harga_jual" id="harga_jual" placeholder="Masukkan harga jual" readonly />
+                                </div>
+                                <small id="harga_jual_error" class="form-text text-danger mb-3"></small>
+
+
+                        </div>
+                        <div class="col-md-6">
+                            <label for="stok">Stok Barang</label>
+                            <div class="input-group mb-2">
+                                <input type="text" class="form-control" name="stok" id="stok" placeholder="Masukkan jumlah stok barang" />
+                            </div>
+                            <small id="stok_error" class="form-text text-danger mb-3"></small>
+
+                            <div class="mb-3">
+                                <label for="formFile" class="form-label">Photo Ukuran Max. 100Kb Dengan Format .jpg/.png<span style="color:red"> *</span></label>
+                                <input class="form-control" type="file" name="image" id="image">
+                                <small id="image_error" class="form-text text-danger mb-3"></small>
+                            </div>
+
+
+                        </div>
+                        <div class="col-12 d-flex gap-2 justify-content-end mt-3">
+                            <button type="reset" class="btn btn-outline-primary btn-md" style="width:140px">Batalkan</button>
+                            <button type="submit" class="btn btn-primary btn-md" style="margin-left: 10px; width:140px">Simpan</button>
+                        </div>
+                        </form>
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- /.content -->
         </div>
-        <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
+        <!-- /.content-wrapper -->
 
-    <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
-        <!-- Control sidebar content goes here -->
-    </aside>
-    <!-- /.control-sidebar -->
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
 
-    <!-- REQUIRED SCRIPTS -->
+        <!-- REQUIRED SCRIPTS -->
 
-    <!-- jQuery -->
-    <script src="/assets/adminlte3/plugins/jquery/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="/assets/adminlte3/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- AdminLTE -->
-    <script src="/assets/adminlte3/dist/js/adminlte.js"></script>
-    <!-- jQuery -->
-    <script src="/assets/adminlte3/plugins/jquery/jquery.min.js"></script>
-    <!-- jQuery UI 1.11.4 -->
-    <script src="/assets/adminlte3/plugins/jquery-ui/jquery-ui.min.js"></script>
-    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-    <script>
-        $.widget.bridge('uibutton', $.ui.button)
-    </script>
-    <!-- Bootstrap 4 -->
-    <script src="/assets/adminlte3/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- ChartJS -->
-    <script src="/assets/adminlte3/plugins/chart.js/Chart.min.js"></script>
-    <!-- Sparkline -->
-    <script src="/assets/adminlte3/plugins/sparklines/sparkline.js"></script>
-    <!-- JQVMap -->
-    <script src="/assets/adminlte3/plugins/jqvmap/jquery.vmap.min.js"></script>
-    <script src="/assets/adminlte3/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
-    <!-- jQuery Knob Chart -->
-    <script src="/assets/adminlte3/plugins/jquery-knob/jquery.knob.min.js"></script>
-    <!-- daterangepicker -->
-    <script src="/assets/adminlte3/plugins/moment/moment.min.js"></script>
-    <script src="/assets/adminlte3/plugins/daterangepicker/daterangepicker.js"></script>
-    <!-- Tempusdominus Bootstrap 4 -->
-    <script src="/assets/adminlte3/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
-    <!-- Summernote -->
-    <script src="/assets/adminlte3/plugins/summernote/summernote-bs4.min.js"></script>
-    <!-- overlayScrollbars -->
-    <script src="/assets/adminlte3/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-    <!-- OPTIONAL SCRIPTS -->
-    <script src="/assets/adminlte3/plugins/chart.js/Chart.min.js"></script>
-    <!-- AdminLTE for demo purposes -->
-    <script src="/assets/adminlte3/dist/js/demo.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script>
-        <?php if (session()->has('sweet_alert')) : ?>
-            var sweetAlertData = <?= session('sweet_alert') ?>;
+        <!-- jQuery -->
+        <script src="/assets/adminlte3/plugins/jquery/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="/assets/adminlte3/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- AdminLTE -->
+        <script src="/assets/adminlte3/dist/js/adminlte.js"></script>
+        <!-- jQuery -->
+        <script src="/assets/adminlte3/plugins/jquery/jquery.min.js"></script>
+        <!-- jQuery UI 1.11.4 -->
+        <script src="/assets/adminlte3/plugins/jquery-ui/jquery-ui.min.js"></script>
+        <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+        <script>
+            $.widget.bridge('uibutton', $.ui.button)
+        </script>
+        <!-- Bootstrap 4 -->
+        <script src="/assets/adminlte3/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- ChartJS -->
+        <script src="/assets/adminlte3/plugins/chart.js/Chart.min.js"></script>
+        <!-- Sparkline -->
+        <script src="/assets/adminlte3/plugins/sparklines/sparkline.js"></script>
+        <!-- JQVMap -->
+        <script src="/assets/adminlte3/plugins/jqvmap/jquery.vmap.min.js"></script>
+        <script src="/assets/adminlte3/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+        <!-- jQuery Knob Chart -->
+        <script src="/assets/adminlte3/plugins/jquery-knob/jquery.knob.min.js"></script>
+        <!-- daterangepicker -->
+        <script src="/assets/adminlte3/plugins/moment/moment.min.js"></script>
+        <script src="/assets/adminlte3/plugins/daterangepicker/daterangepicker.js"></script>
+        <!-- Tempusdominus Bootstrap 4 -->
+        <script src="/assets/adminlte3/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+        <!-- Summernote -->
+        <script src="/assets/adminlte3/plugins/summernote/summernote-bs4.min.js"></script>
+        <!-- overlayScrollbars -->
+        <script src="/assets/adminlte3/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+        <!-- OPTIONAL SCRIPTS -->
+        <script src="/assets/adminlte3/plugins/chart.js/Chart.min.js"></script>
+        <!-- AdminLTE for demo purposes -->
+        <script src="/assets/adminlte3/dist/js/demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+            <?php if (session()->has('sweet_alert')) : ?>
+                var sweetAlertData = <?= session('sweet_alert') ?>;
 
-            // Menampilkan Sweet Alert
-            Swal.fire({
-                icon: sweetAlertData.success ? 'success' : 'error',
-                title: sweetAlertData.message,
-                toast: true,
-                position: 'top-end',
-                showConfirmButton: false,
-                timer: 3000,
-                timerProgressBar: true
-            });
-        <?php endif; ?>
-    </script>
-    <script>
-        function previewFile(input) {
-            var file = $("input[type=file]").get(0).files[0];
-            if (file) {
-                var reader = new FileReader();
-                reader.onload = function() {
-                    $("#previewImg").attr("src", reader.result);
-                }
-                reader.readAsDataURL(file);
-            }
-        }
-    </script>
-    <script>
-          document.getElementById('harga_beli').addEventListener('input', function() {
-            var hargaBeli = parseFloat(this.value) || 0;
-            var hargaJual = hargaBeli + (hargaBeli * 0.30);
-            document.getElementById('harga_jual').value = hargaJual.toFixed(2);
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-
-
-            $('#formProduk').on('submit', function(e) {
-                e.preventDefault();
-
-                $.ajax({
-                    url: "<?php echo base_url('produk/create') ?>",
-                    method: "POST",
-                    data: new FormData(this),
-                    contentType: false,
-                    cache: false,
-                    processData: false,
-                    dataType: "JSON",
-                    success: function(data) {
-                        // Data Error
-                        if (data.error) {
-                            if (data.tambah_produk_error['nama_produk'] != '') $('#nama_produk_error').html(data.tambah_produk_error['nama_produk']);
-                            else $('#nama_produk_error').html('');
-
-                            if (data.tambah_produk_error['image'] != '') $('#image_error').html(data.tambah_produk_error['image']);
-                            else $('#image_error').html('');
-
-                            if (data.tambah_produk_error['harga_beli'] != '') $('#harga_beli_error').html(data.tambah_produk_error['harga_beli']);
-                            else $('#harga_beli_error').html('');
-
-                            if (data.tambah_produk_error['stok'] != '') $('#stok_error').html(data.tambah_produk_error['stok']);
-                            else $('#stok_error').html('');
-
-
-                        } else {
-                            Swal.fire({
-                                icon: 'success',
-                                title: 'Tambah Data Produk Berhasil',
-                                showConfirmButton: false,
-                                timer: 2000
-                            }); 
-                            window.location.replace(data.link);
-                        }
-                    }
+                // Menampilkan Sweet Alert
+                Swal.fire({
+                    icon: sweetAlertData.success ? 'success' : 'error',
+                    title: sweetAlertData.message,
+                    toast: true,
+                    position: 'top-end',
+                    showConfirmButton: false,
+                    timer: 3000,
+                    timerProgressBar: true
                 });
+            <?php endif; ?>
+        </script>
+        <script>
+            function previewFile(input) {
+                var file = $("input[type=file]").get(0).files[0];
+                if (file) {
+                    var reader = new FileReader();
+                    reader.onload = function() {
+                        $("#previewImg").attr("src", reader.result);
+                    }
+                    reader.readAsDataURL(file);
+                }
+            }
+        </script>
+        <script>
+            document.getElementById('harga_beli').addEventListener('input', function() {
+                var hargaBeli = parseFloat(this.value) || 0;
+                var hargaJual = hargaBeli + (hargaBeli * 0.30);
+                document.getElementById('harga_jual').value = hargaJual.toFixed(2);
             });
+        </script>
+        <script>
+            $(document).ready(function() {
 
-            //-------------------------------------------------------------------
 
-        });
-    </script>
+                $('#formProduk').on('submit', function(e) {
+                    e.preventDefault();
+
+                    $.ajax({
+                        url: "<?php echo base_url('produk/create') ?>",
+                        method: "POST",
+                        data: new FormData(this),
+                        contentType: false,
+                        cache: false,
+                        processData: false,
+                        dataType: "JSON",
+                        success: function(data) {
+                            // Data Error
+                            if (data.error) {
+                                if (data.tambah_produk_error['nama_produk'] != '') $('#nama_produk_error').html(data.tambah_produk_error['nama_produk']);
+                                else $('#nama_produk_error').html('');
+
+                                if (data.tambah_produk_error['image'] != '') $('#image_error').html(data.tambah_produk_error['image']);
+                                else $('#image_error').html('');
+
+                                if (data.tambah_produk_error['harga_beli'] != '') $('#harga_beli_error').html(data.tambah_produk_error['harga_beli']);
+                                else $('#harga_beli_error').html('');
+                              
+                                if (data.tambah_produk_error['harga_jual'] != '') $('#harga_jual_error').html(data.tambah_produk_error['harga_jual']);
+                                else $('#harga_jual_error').html('');
+
+                                if (data.tambah_produk_error['stok'] != '') $('#stok_error').html(data.tambah_produk_error['stok']);
+                                else $('#stok_error').html('');
+
+                                if (data.tambah_produk_error['kategori'] != '') $('#kategori_error').html(data.tambah_produk_error['kategori']);
+                                else $('#kategori_error').html('');
+
+
+                            } else {
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Tambah Data Produk Berhasil',
+                                    showConfirmButton: false,
+                                    timer: 2000
+                                });
+                                window.location.replace(data.link);
+                            }
+                        }
+                    });
+                });
+
+                //-------------------------------------------------------------------
+
+            });
+        </script>
 </body>
 
 </html>

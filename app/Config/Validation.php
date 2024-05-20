@@ -68,7 +68,7 @@ class Validation extends BaseConfig
         ],
         'image' => [
             'label'  => 'Foto Profil',
-            'rules'  => 'uploaded[image]|max_size[image,100]|mime_in[image,image/png,image/jpg],ext_in[image,png,jpg]', 
+            'rules'  => 'uploaded[image]|max_size[image,100]|mime_in[image,image/png,image/jpg,],ext_in[image,png,jpg]', 
             'errors' => [
                 'uploaded' => 'Foto Kandidat tidak boleh kosong!',
                 'max_size' => 'Ukuran File Foto Kandidat maksimal 100Kb!',
@@ -118,9 +118,10 @@ class Validation extends BaseConfig
     public $produk = [
         'nama_produk' => [
             'label'  => 'Nama Produk',
-            'rules'  => 'required',
+            'rules'  => 'required|is_unique[produk.nama_produk]',
             'errors' => [
                 'required' => 'Nama Produk Tidak Boleh Kosong!',
+                'is_unique' => 'Nama Produk Sudah Terdaftar, Silahkan ganti dengan nama lain jika ingin diubah !'
             ]
         ],
         'harga_beli' => [
@@ -128,6 +129,15 @@ class Validation extends BaseConfig
             'rules' => 'required|numeric',
             'errors' => [
                 'required' => 'Harga Beli Tidak Boleh Kosong!',
+                'numeric' => 'Harga Beli hanya boleh diisi dengan angka!',
+            ],
+        ],
+           
+        'harga_jual' => [
+            'label' => 'Harga Jual',
+            'rules' => 'required|numeric',
+            'errors' => [
+                'required' => 'Silahkan Isi Harga Beli Terlebih Dahulu!',
                 'numeric' => 'Harga Beli hanya boleh diisi dengan angka!',
             ],
         ],
@@ -140,16 +150,41 @@ class Validation extends BaseConfig
                 'numeric' => 'Kolom {field} harus berupa angka',
             ],
         ],
+        'image' => [
+            'label'  => 'Foto Barang',
+            'rules'  => 'uploaded[image]|max_size[image,100]|mime_in[image,image/png,image/jpg],ext_in[image,png,jpg]', 
+            'errors' => [
+                'uploaded' => 'Foto Barang tidak boleh kosong , Silahkan pilih foto baru jika ingin diubah !',
+                'max_size' => 'Ukuran File Foto Barang maksimal 100Kb!',
+                'ext_in' => 'Format Foto Barang tidak sesuai!',
+                'mime_in' => 'Format Foto Barang tidak sesuai!',
+            ]
+        ],
+        'kategori' => [
+            'label'  => 'Kategori Produk',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Silahkan Pilih Kategori Produk!',
+            ]
+        ],
     ];
     public $tambah_produk = [
         'nama_produk' => [
             'label'  => 'Nama Produk',
-            'rules'  => 'required',
+            'rules'  => 'required|is_unique[produk.nama_produk]',
             'errors' => [
                 'required' => 'Nama Produk Tidak Boleh Kosong!',
+                'is_unique' => 'Nama Produk Sudah Terdaftar!'
             ]
         ],
-        
+    
+        'kategori' => [
+            'label'  => 'Kategori Produk',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Silahkan Pilih Kategori Produk!',
+            ]
+        ],
     
         'image' => [
             'label'  => 'Foto Barang',
@@ -167,6 +202,15 @@ class Validation extends BaseConfig
             'rules' => 'required|numeric',
             'errors' => [
                 'required' => 'Harga Beli Tidak Boleh Kosong!',
+                'numeric' => 'Harga Beli hanya boleh diisi dengan angka!',
+            ],
+        ],
+        
+        'harga_jual' => [
+            'label' => 'Harga Jual',
+            'rules' => 'required|numeric',
+            'errors' => [
+                'required' => 'Silahkan Isi Harga Beli Terlebih Dahulu!',
                 'numeric' => 'Harga Beli hanya boleh diisi dengan angka!',
             ],
         ],

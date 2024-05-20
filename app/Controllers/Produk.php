@@ -7,6 +7,8 @@ use App\Models\ProdukModel;
 use App\Models\KategoriModel;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
 
 class Produk extends BaseController
 {
@@ -42,21 +44,30 @@ class Produk extends BaseController
 
 	public function index()
 	{
-		if (!$this->session->has('nama') || !$this->session->has('email')) {
-			return redirect()->to('/login');
+		$token = $this->session->get('token');
+		/*  dd($token); */
+		$key = getenv('JWT_SECRET_KEY');
+		if (!$token) {
+			return redirect()->to('/accessdenied?error=Token Required');
+		} else {
+			try {
+				$decoded = JWT::decode($token, new Key($key, 'HS256'));
+				$data = [
+					'title' => "SIMS Web App || Tambah Produk",
+					'page' => "home",
+					'id' => $decoded->uid,
+					'email' => $decoded->email,
+					'nama' => $decoded->nama,
+					'role_id' => $decoded->role_id,
+					'produk' => $this->produk->findAll(),
+					'kategori' => $this->kategori->findAll()
+				];
+
+				return view('v_home/add', $data);
+			} catch (\throwable $th) {
+				return redirect()->to('/');
+			}
 		}
-
-
-		$data = [
-			'title' => "SIMS Web App || Tambah Produk",
-			'page' => "produk",
-			'nama' => $this->session->get('nama'),
-			'email' => $this->session->get('email'),
-			'produk' => $this->produk->findAll(),
-			'kategori' => $this->kategori->findAll()
-		];
-
-		return view('v_home/add', $data);
 	}
 
 	public function create()
@@ -69,8 +80,10 @@ class Produk extends BaseController
 		$stok    = $this->request->getVar('stok');
 
 		$cek_validasi = [
+			'kategori' => $kategori,
 			'nama_produk' => $nama_produk,
 			'harga_beli' => $harga_beli,
+			'harga_jual' => $harga_jual,
 			'stok' => $stok,
 		];
 		if ($this->form_validation->run($cek_validasi, 'tambah_produk') == FALSE) {
@@ -102,20 +115,30 @@ class Produk extends BaseController
 
 	public function edit($id)
 	{
-		if (!$this->session->has('nama') || !$this->session->has('email')) {
-			return redirect()->to('/login');
+
+		$token = $this->session->get('token');
+		$key = getenv('JWT_SECRET_KEY');
+		if (!$token) {
+			return redirect()->to('/accessdenied?error=Token Required');
+		} else {
+			try {
+				$decoded = JWT::decode($token, new Key($key, 'HS256'));
+				$data = [
+					'title' => "SIMS Web App || Tambah Produk",
+					'page' => "produk",
+					'id' => $decoded->uid,
+					'email' => $decoded->email,
+					'nama' => $decoded->nama,
+					'role_id' => $decoded->role_id,
+					'produk' => $this->produk->find($id),
+					'kategori' => $this->kategori->findAll()
+				];
+
+				return view('v_home/edit', $data);
+			} catch (\throwable $th) {
+				return redirect()->to('/');
+			}
 		}
-
-		$data = [
-			'title' => "SIMS Web App || Edit Produk",
-			'page' => "editproduk",
-			'nama' => $this->session->get('nama'),
-			'email' => $this->session->get('email'),
-			'produk' => $this->produk->find($id),
-			'kategori' => $this->kategori->findAll()
-		];
-
-		return view('v_home/edit', $data);
 	}
 
 	public function update($id)
@@ -128,8 +151,10 @@ class Produk extends BaseController
 		$stok    = $this->request->getVar('stok');
 
 		$cek_validasi = [
+			'kategori' => $kategori,
 			'nama_produk' => $nama_produk,
 			'harga_beli' => $harga_beli,
+			'harga_jual' => $harga_jual,
 			'stok' => $stok,
 		];
 		if ($this->form_validation->run($cek_validasi, 'produk') == FALSE) {
@@ -151,11 +176,14 @@ class Produk extends BaseController
 				'stok' => $stok,
 			];
 			$this->produk->update($id, $data);
-			$this->session->setFlashdata('sweet_alert', json_encode(['success' => true, 'message' => 'Update data produk berhasil!']));
-			return redirect()->to(base_url('home'));
+			$validasi = [
+				'success'   => true,
+				'link'      => base_url('home')
+			];
+			echo json_encode($validasi);
 		}
 	}
-	// Datatable server side
+
 	public function ajaxDataProduk()
 	{
 
@@ -167,7 +195,7 @@ class Produk extends BaseController
 				$no++;
 				$row = [];
 				$row[] = $no;
-				$row[] = '<img class="circle-img" src="/produk_picture/' . $list->image . '">';;
+				$row[] = '<img class="circle-img" width="100px" src="/produk_picture/' . $list->image . '">';;
 				$row[] = $list->nama_produk;
 				$row[] = $list->nama_kategori;
 				$row[] = $list->harga_beli;
@@ -186,44 +214,72 @@ class Produk extends BaseController
 		}
 	}
 
-	/* Export ke Excel */
+
 	public function exportExcel()
 	{
+
 		$produk = $this->produk->getProdukWithKategori();
 		$spreadsheet = new Spreadsheet();
 		$sheet = $spreadsheet->getActiveSheet();
 
-		/* // Header */
-		$sheet->setCellValue('A1', 'No');
-		$sheet->setCellValue('B1', 'Image');
-		$sheet->setCellValue('C1', 'Nama Produk');
-		$sheet->setCellValue('D1', 'Nama Kategori');
-		$sheet->setCellValue('E1', 'Harga Beli');
-		$sheet->setCellValue('F1', 'Harga Jual');
-		$sheet->setCellValue('G1', 'Stok');
+		$sheet->setCellValue('A1', 'Data Produk');
+
+		/* Gabungkan sel */
+		$sheet->mergeCells('A1:F1');
+
+		$titleStyle = [
+			'alignment' => [
+				'horizontal' => \PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_CENTER,
+			],
+			'font' => [
+				'bold' => true,
+				'size' => 16,
+			],
+		];
+		$sheet->getStyle('A1')->applyFromArray($titleStyle);
+
+
+		$sheet->setCellValue('A2', 'No');
+		$sheet->setCellValue('B2', 'Nama Produk');
+		$sheet->setCellValue('C2', 'Nama Kategori');
+		$sheet->setCellValue('D2', 'Harga Beli');
+		$sheet->setCellValue('E2', 'Harga Jual');
+		$sheet->setCellValue('F2', 'Stok');
 
 		$no = 1;
-		$row = 2;
+		$row = 3;
 		foreach ($produk as $p) {
 			$sheet->setCellValue('A' . $row, $no++);
-			$sheet->setCellValue('B' . $row, $p['image']);
-			$sheet->setCellValue('C' . $row, $p['nama_produk']);
-			$sheet->setCellValue('D' . $row, $p['nama_kategori']);
-			$sheet->setCellValue('E' . $row, $p['harga_beli']);
-			$sheet->setCellValue('F' . $row, $p['harga_jual']);
-			$sheet->setCellValue('G' . $row, $p['stok']);
+			$sheet->setCellValue('B' . $row, $p['nama_produk']);
+			$sheet->setCellValue('C' . $row, $p['nama_kategori']);
+			$sheet->setCellValue('D' . $row, $p['harga_beli']);
+			$sheet->setCellValue('E' . $row, $p['harga_jual']);
+			$sheet->setCellValue('F' . $row, $p['stok']);
 			$row++;
 		}
 
-		// Set header untuk file Excel
+
 		header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
 		header('Content-Disposition: attachment;filename="data_produk.xlsx"');
 		header('Cache-Control: max-age=0');
+		$headerStyle = [
+			'fill' => [
+				'fillType' => \PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID,
+				'color' => ['rgb' => '8B4513'],
+			],
+			'font' => [
+				'bold' => true,
+				'color' => ['rgb' => 'FFFFFF'],
+			],
+		];
 
+
+		$sheet->getStyle('A2:F2')->applyFromArray($headerStyle);
 		$writer = new Xlsx($spreadsheet);
 		$writer->save('php://output');
 		exit;
 	}
+	
 	public function delete($id)
 	{
 		$this->produk->delete($id);

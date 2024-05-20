@@ -13,9 +13,9 @@
 <body>
   <section class="login" id="login">
     <div class="container-fluid">
-      <div class="row align-items-center evenly">
-        <div class="col-lg-6 p-5">
-          <div class="form-title text-center">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-5 p-5 text-lg-start">
+          <div class="form-title text-center p-4">
             <h4><i class="fas fa-shopping-bag align-self-center text-danger me-2"></i><span>SIMS Web App</span></h4>
             <h3>Masuk atau buat akun untuk memulai</h3>
           </div>
@@ -44,17 +44,13 @@
 
           </form>
         </div>
-        <div class="col-lg-6 text-center">
-          <img src="/assets/img/Frame 98699.png" class="img-fluid" alt="">
+        <div class="col-lg-7 d-none d-lg-block overflow-hidden" style="max-height: 100vh; max-width: 550px ">
+          <img src="/assets/img/Frame 98699.png" class="img-fluid w-100"  alt="">
         </div>
       </div>
     </div>
   </section>
-  <style>
 
-
-
-  </style>
 
 
 </body>

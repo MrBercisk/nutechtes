@@ -43,7 +43,6 @@ class Autoload extends AutoloadConfig
         APP_NAMESPACE => APPPATH,
         'Config'      => APPPATH . 'Config',
         'App\Helpers' => APPPATH . 'Helpers',
-        'Dompdf'      => ROOTPATH . 'vendor/dompdf/dompdf/src'
     ];
 
     /**

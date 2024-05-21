@@ -4,16 +4,14 @@ namespace App\Controllers;
 
 use App\Models\UserModel;
 use CodeIgniter\API\ResponseTrait;
-use CodeIgniter\RESTful\ResourceController;
 use Firebase\JWT\JWT;
 
 
-class Login extends ResourceController
+class Login extends BaseController
 {
 	protected $encrypter;
 	protected $form_validation;
 	protected $user;
-
 	protected $session;
 	use ResponseTrait;
 
@@ -40,7 +38,6 @@ class Login extends ResourceController
 			'email' => $email,
 			'password' => $password,
 		];
-		// Cek Validasi, Jika Data Tidak Valid
 		if ($this->form_validation->run($cek_validasi, 'login') == FALSE) {
 			$validasi = [
 				'error' => true,
@@ -93,7 +90,7 @@ class Login extends ResourceController
 				$validasi = [
 					'error'     => true,
 					'login_error' => [
-						'email' => 'Email Tidak Terdaftar!'
+						'email' => 'Email Anda Tidak Terdaftar!'
 					]
 				];
 				echo json_encode($validasi);

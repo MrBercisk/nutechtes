@@ -99,7 +99,7 @@
     //-------------------------------------------------------------------
 
     $('#btn-login').on('click', function(e) {
-      e.preventDefault(); // Menghentikan aksi default tombol submit
+      e.preventDefault();
 
       const formLogin = $('#formLogin');
 

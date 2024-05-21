@@ -68,7 +68,7 @@ class Validation extends BaseConfig
         ],
         'image' => [
             'label'  => 'Foto Profil',
-            'rules'  => 'uploaded[image]|max_size[image,100]|mime_in[image,image/png,image/jpg,],ext_in[image,png,jpg]', 
+            'rules'  => 'uploaded[image]|max_size[image,100]|mime_in[image,image/png,image/jpg,image/jpeg]|ext_in[image,png,jpg,jpeg]', 
             'errors' => [
                 'uploaded' => 'Foto Kandidat tidak boleh kosong!',
                 'max_size' => 'Ukuran File Foto Kandidat maksimal 100Kb!',
@@ -152,7 +152,7 @@ class Validation extends BaseConfig
         ],
         'image' => [
             'label'  => 'Foto Barang',
-            'rules'  => 'uploaded[image]|max_size[image,100]|mime_in[image,image/png,image/jpg],ext_in[image,png,jpg]', 
+            'rules'  => 'uploaded[image]|max_size[image,100]|mime_in[image,image/png,image/jpg,image/jpeg]|ext_in[image,png,jpg,jpeg]', 
             'errors' => [
                 'uploaded' => 'Foto Barang tidak boleh kosong , Silahkan pilih foto baru jika ingin diubah !',
                 'max_size' => 'Ukuran File Foto Barang maksimal 100Kb!',
@@ -188,7 +188,7 @@ class Validation extends BaseConfig
     
         'image' => [
             'label'  => 'Foto Barang',
-            'rules'  => 'uploaded[image]|max_size[image,100]|mime_in[image,image/png,image/jpg],ext_in[image,png,jpg]', 
+            'rules'  => 'uploaded[image]|max_size[image,100]|mime_in[image,image/png,image/jpg,image/jpeg]|ext_in[image,png,jpg,jpeg]', 
             'errors' => [
                 'uploaded' => 'Foto Barang tidak boleh kosong!',
                 'max_size' => 'Ukuran File Foto Barang maksimal 100Kb!',
